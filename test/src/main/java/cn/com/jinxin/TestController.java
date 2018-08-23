@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.annotation.JacksonInject.Value;
 
-@RestController(value="/http")
+@RestController(value="/htttp")
 public class TestController {
 
 	@RequestMapping(method=RequestMethod.GET)
